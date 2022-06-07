@@ -6,3 +6,19 @@
 
 Use {ghcup} to get `ghc` + `stack` + `hls`!
 
+== File structure
+
+```sh
+.
+├── Setup.hs
+├── abs.cabal        # Automatically generated on `stack build`
+├── app              # Answer scripts
+│   ├── P01.hs       # Answer script for the first problem
+│   ├── P01-input    # Input for `P01.hs`
+│   └── ..
+├── package.yaml     # Declares executable files
+├── stack.yaml       # Declares external dependencies
+├── stack.yaml.lock  # Specifies package versions in use
+└── x
+```
+
