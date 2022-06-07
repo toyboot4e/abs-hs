@@ -22,3 +22,12 @@ Use {ghcup} to get `ghc` + `stack` + `hls`!
 └── x
 ```
 
+== Running
+
+Run `cat app/P01-input | (stack build && stack exec P01-exe)` with the helper script:
+
+[source,haskell]
+----
+$ ./x P01
+----
+
