@@ -1,0 +1,8 @@
+= (WIP) {abs} in Haskell
+:abs: https://atcoder.jp/contests/abs[AtCoder Beginners Selection]
+:ghcup: https://www.haskell.org/ghcup/[ghcup]
+
+== Installation
+
+Use {ghcup} to get `ghc` + `stack` + `hls`!
+
