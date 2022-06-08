@@ -12,8 +12,9 @@ main = do
         listToMaybe
           [ [a, b, c]
             | a <- [0 .. n],
-              b <- [0 .. n],
-              c <- [0 .. n],
+              b <- [0 .. (n - a)],
+              let c = n - (a + b),
+              c > 0,
               a + b + c == n,
               10000 * a + 5000 * b + 1000 * c == tot
           ]
