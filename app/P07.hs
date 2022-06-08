@@ -18,4 +18,4 @@ main :: IO ()
 main = do
   n <- read <$> getLine :: IO Int
   ds <- replicateM n getLine
-  print $ length $ dedupSorted ds
+  print $ length $ dedupSorted (sort ds)
