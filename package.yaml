@@ -64,6 +64,9 @@ executables:
     <<: *exe-defaults
     main:                P08.hs
 
+  P09-exe:
+    <<: *exe-defaults
+    main:                P09.hs
 # # TODO: Use it or remove it
 # tests:
 #   abs-test:
