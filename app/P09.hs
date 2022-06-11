@@ -18,5 +18,5 @@ main :: IO ()
 main = do
   ln <- getLine
   if solve ln
-    then print "YES"
-    else print "NO"
+    then putStrLn "YES"
+    else putStrLn "NO"
