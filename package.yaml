@@ -29,6 +29,7 @@ _exe-defs: &exe-defaults
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -Wall # all warnings
   other-modules: []
 
 executables:
@@ -67,6 +68,11 @@ executables:
   P09-exe:
     <<: *exe-defaults
     main:                P09.hs
+
+  P10-exe:
+    <<: *exe-defaults
+    main:                P10.hs
+
 # # TODO: Use it or remove it
 # tests:
 #   abs-test:
